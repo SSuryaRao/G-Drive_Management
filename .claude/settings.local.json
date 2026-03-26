@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"E:/Coding/gdrive_managemnt\" && npm install 2>&1 | tail -5)",
+      "Bash(cd \"E:/Coding/gdrive_managemnt\" && node -e \"const p = require\\('./package.json'\\); console.log\\(JSON.stringify\\(p.dependencies, null, 2\\)\\)\")",
+      "Bash(powershell.exe -Command \"gcloud auth application-default set-quota-project bolofyofficial\")",
+      "Bash(powershell.exe -Command \"gcloud oauth2-credentials list 2>&1; gcloud auth application-default print-access-token 2>&1 | Select-Object -First 1\")",
+      "Bash(powershell.exe -Command \"Copy-Item -Path 'c:\\\\Users\\\\Surya''s PC\\\\Downloads\\\\client_secret_1043104070297-1kn75mplj8vr25mslpmuvrbgiduhssa6.apps.googleusercontent.com.json' -Destination 'E:\\\\Coding\\\\gdrive_managemnt\\\\credentials\\\\google-oauth.json'\")"
+    ]
+  }
+}
